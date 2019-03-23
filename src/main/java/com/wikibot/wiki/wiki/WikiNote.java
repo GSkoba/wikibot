@@ -8,6 +8,9 @@ public class WikiNote implements Serializable {
     private String disc;
     private String link;
 
+    public WikiNote() {
+    }
+
     public WikiNote(String name, String disc, String link) {
         this.name = name;
         this.disc = disc;
